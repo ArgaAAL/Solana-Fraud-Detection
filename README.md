@@ -1,5 +1,10 @@
 # 🕵️‍♂️ Solana Forensics
 
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=ArgaAAL.Solana-Forensics)
+
+[![GitHub Stars](https://img.shields.io/github/stars/ArgaAAL/Solana-Forensics?style=social)](https://github.com/ArgaAAL/Solana-Forensics/stargazers)
+
+
 ### *Institutional-Grade Ransomware, Money Laundering & Illicit Activity Detection Engine for the Solana Blockchain*
 
 > **A high-throughput forensic ETL + neural inference engine designed to detect ransomware patterns, layering behavior, and malicious actors on Solana using behavioral analysis and deep learning.**
