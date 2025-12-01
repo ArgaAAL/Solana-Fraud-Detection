@@ -48,20 +48,20 @@ Not designed for:
 graph LR
     A[RPC Ingestion Layer] -->|Raw TXs| B[Feature Engineering Engine]
     B -->|Feature Vectors| C[ONNX Inference Engine]
-    C --> D[Risk Score (0.0 – 1.0)]
+    C --> D[Risk Score (0.0 - 1.0)]
 
-    subgraph "Layer 1: ETL"
+    subgraph Layer1[Layer 1: ETL]
         A --> A1[Transaction Parser]
         A1 --> A2[Context Classifier]
     end
     
-    subgraph "Layer 2: Feature Engineering"
+    subgraph Layer2[Layer 2: Feature Engineering]
         A2 --> B1[Temporal Density]
         A2 --> B2[DeFi Graph Metrics]
         A2 --> B3[Price Normalization]
     end
     
-    subgraph "Layer 3: ML Decision Plane"
+    subgraph Layer3[Layer 3: ML Decision Plane]
         C --> D
     end
 ```
