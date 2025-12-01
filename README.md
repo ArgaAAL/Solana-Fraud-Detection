@@ -2,8 +2,6 @@
 
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=ArgaAAL.Solana-Forensics)
 
-[![GitHub Stars](https://img.shields.io/github/stars/ArgaAAL/Solana-Forensics?style=social)](https://github.com/ArgaAAL/Solana-Forensics/stargazers)
-
 
 ### *Institutional-Grade Ransomware, Money Laundering & Illicit Activity Detection Engine for the Solana Blockchain*
 
